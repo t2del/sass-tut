@@ -1,0 +1,16 @@
+download ruby - (http://sass-lang.com/install)
+
+run cmd ruby then go to the folder
+
+cmd > gem install sass
+cmd > gem install compass
+to check for versions(cmd > compass -v and sass -v)
+
+then create project
+cmd > compass create (project name)
+cmd > cd project (go to project folder)
+to start working
+cmd > compass watch
+
+=================================
+when editing, edit the file with the extension .scss
