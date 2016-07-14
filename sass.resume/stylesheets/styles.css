@@ -1,44 +1,75 @@
-/* CSS Document */
 /* line 12, ../sass/styles.scss */
+a, a:active, a:hover, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+/* line 16, ../sass/styles.scss */
+a:active, a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* line 22, ../sass/styles.scss */
 body {
   background-color: #f5f5f5;
   font-family: Century Gothic;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
 #main {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   margin: auto;
   max-width: 800px;
   min-width: 350px;
   background-color: #FFF;
   border: solid 1px #CCC;
-  padding: 3% 0px 3% 0px;
+  padding: 2% 0px 2% 0px;
 }
 
-/* line 26, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 hr {
   border-color: #ff0000;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 .make-center {
   margin: auto;
   width: 95%;
 }
 
-/* line 34, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .month-year {
   float: right;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
+#photo-section {
+  margin: 0 5% 0 0;
+  background-color: #f5f5f5;
+  width: 15%;
+  height: 15%;
+  min-width: 12.5%;
+  min-height: 12.5%;
+  float: right;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+/* line 61, ../sass/styles.scss */
 name {
   font-size: 22px;
   font-weight: bolder;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 #information {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   background-color: #000;
   font-size: 14px;
   color: #FFF;

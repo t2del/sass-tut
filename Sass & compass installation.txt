@@ -9,7 +9,7 @@ to check for versions(cmd > compass -v and sass -v)
 then create project
 cmd > compass create (project name)
 cmd > cd project (go to project folder)
-to start working
+to start working (open ruby cmd)
 cmd > compass watch
 
 =================================
